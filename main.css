@@ -12,7 +12,7 @@ body {
 /* Colors */
 header, .intro, footer {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, 
-                url(images/934007.jpg) no-repeat center center fixed;
+                url(images/IMG_3486.jpg) no-repeat center center fixed;
     background-size: cover; 
     color: #f9faf8;
 }
@@ -28,20 +28,18 @@ header, .intro{
     gap:15%;
 }
 
-.logo {
-    font-size: 24px;
-}
-
 .main h1 {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bolder;
     align-self: flex-start;
     margin-bottom: -16px;
+    mix-blend-mode:luminosity;
 }
 
 .sidekick-text, li {
     color:#e5e7eb;
     font-size: 18px;
+    mix-blend-mode:luminosity;
 }
 button {
     background-color: #000000;
@@ -70,7 +68,7 @@ a {
     color: #f9faf8;
 }
 a:hover {
-    color: #f7601b;
+    color: #1F2937;
 }
 
 .intro{
@@ -110,7 +108,7 @@ img {
     align-self: stretch;
     align-items: center;
     justify-content:space-between;
-    background-color: #1F2937;
+    background-color: #1f2937;
     color: #f9faf8;
     flex-flow: column wrap;
 }
@@ -142,7 +140,7 @@ img {
 }
 
 .card:hover {
-    color: #f9faf8;
+    color:  #1f2937;
 }
 .content-img {
     width:144px;
@@ -155,15 +153,16 @@ img {
 
 .content-img:hover {
     transform:scale(1.05);
+    background-color: #1F2937;
 }
 .quote {
     padding:80px 35%;
-    background: url(images/IMG_3486.jpg) no-repeat center center fixed;
+    background: url(images/YouTubeBanner.JPG) no-repeat center center fixed;
     background-size: cover;
     font-size: 60px;
     font-weight: bold;
     font-style: italic;
-    color:#1f1e1e;
+    color:hsl(0, 0%, 29%);
 }
 
 .quote p{
@@ -197,7 +196,7 @@ img {
 
 button:hover {
     background-color: #f9faf8;
-    color: #f7601b;
+    color: #1F2937;
 }
 
 .sign-up-section p {
